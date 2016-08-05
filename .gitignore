@@ -27,3 +27,12 @@
 *.exe
 *.out
 *.app
+
+/x64
+
+# vs
+
+.idb
+.filters
+.db
+.opendb
