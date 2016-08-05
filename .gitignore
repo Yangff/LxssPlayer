@@ -28,11 +28,11 @@
 *.out
 *.app
 
-/x64
+x64/
 
 # vs
 
-.idb
-.filters
-.db
-.opendb
+*.idb
+*.filters
+*.db
+*.opendb
