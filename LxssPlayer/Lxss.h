@@ -45,7 +45,7 @@ public:
 		unsigned long keep_runing, /* 0 for bash -c xxx 1 for other */
 		LXSS_STD_HANDLES *_LXSS_STD_HANDLES,
 		LXSS_CONSOLE_DATA *_LXSS_CONSOLE_DATA,
-		unsigned long /* =0 */, 
+		unsigned long uid /* =0 or read from reg */, 
 		HANDLE * process /* &v =0 */) = 0;
 	virtual int RegisterAdssBusServer(char const *, unsigned long *) = 0;
 	virtual int ConnectAdssBusServer(char const *, unsigned long *) = 0;
